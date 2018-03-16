@@ -6,11 +6,13 @@ import { AngularFireDatabaseModule } from "angularfire2/database";
 
 
 import { AppComponent } from './app.component';
+import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ShoppingCartComponent
   ],
   imports: [
     BrowserModule,
