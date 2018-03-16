@@ -67,7 +67,7 @@ import { MyOrdersComponent } from './my/my-orders/my-orders.component';
         component: LoginComponent
       },
       {
-        path: 'my/my-orders',
+        path: 'my/orders',
         component: MyOrdersComponent
       },
       {
